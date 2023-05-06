@@ -4,7 +4,7 @@ const auth = {
     key: '**********',
     scopes: ["https://www.googleapis.com/auth/spreadsheets"]
 }
-const gsapi = init(auth, '1w2QR3rBeF2cNR8pSVzvNI1MMwIOqX1idQ_Dg4uYIvwY')
+const gsapi = init(auth, '*****************')
 var row_pointer: number = 2
 var row_start = row_pointer - 1
 
