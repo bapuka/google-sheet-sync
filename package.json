@@ -1,0 +1,36 @@
+{
+  "name": "google-sheet-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "type": "module",
+
+  "scripts": {    
+    "test": "echo \"Sorry, no test provided \" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bapuka/google-sheet-sync.git"
+  },
+  "author": {
+    "email": "bapuka@gmail.com",
+    "name": "Balu Lalu",
+    "url": "https://github.com/bapuka"
+  },
+  "files": ["build/**/*"],
+  "devDependencies": {
+    "@types/node": "^20.1.0",
+    "@types/papaparse": "^5.3.7",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "googleapis": "^118.0.0",
+    "papaparse": "^5.4.1"
+  }
+}
