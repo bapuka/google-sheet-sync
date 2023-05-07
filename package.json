@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "",
   "main": "build/index",
+  "types": "build/index",
   "type": "module",
   "scripts": {
     "test": "echo \"Sorry, no test provided \" && exit 1",
