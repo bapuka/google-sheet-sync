@@ -1,11 +1,10 @@
 {
   "name": "google-sheet-sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "build/index",
   "type": "module",
-
-  "scripts": {    
+  "scripts": {
     "test": "echo \"Sorry, no test provided \" && exit 1",
     "build": "tsc",
     "prepare": "npm run build",
@@ -21,7 +20,9 @@
     "name": "Balu Lalu",
     "url": "https://github.com/bapuka"
   },
-  "files": ["build/**/*"],
+  "files": [
+    "build/**/*"
+  ],
   "devDependencies": {
     "@types/node": "^20.1.0",
     "@types/papaparse": "^5.3.7",
