@@ -1,13 +1,13 @@
 ### To use API
 ```
-import { init } from '../index';
+import { init } from 'google-sheet-sync';
 
 const auth = {
     email: '**@***.iam.gserviceaccount.com',
     key: '-----BEGIN PRIVATE KEY-----\n************\n-----END PRIVATE KEY-----\n',
     scopes: ["https://www.googleapis.com/auth/spreadsheets"]
   }
-const gsapi = init(auth, '******')
+const gsapi = init(auth, '<spreadsheetId>')
 
 // Then call api function
 gsapi.googlesheetsync.getSheetId("<SheetId>")
